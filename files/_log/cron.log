@@ -1,0 +1,102 @@
+2023-01-19 00:16:54 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage contract
+2023-01-19 00:27:37 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage infocom
+2023-01-19 00:32:37 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage mailgate
+2023-01-19 00:38:49 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage session
+2023-01-19 00:39:05 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage graph
+2023-01-19 00:44:40 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage reservation
+2023-01-19 01:38:41 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage closeticket
+2023-01-19 01:47:18 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage alertnotclosed
+2023-01-19 01:49:58 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage slaticket
+2023-01-19 08:02:40 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage createinquest
+2023-01-19 08:08:37 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage watcher
+2023-01-19 08:18:37 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage RecurrentItems
+2023-01-19 08:19:27 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage planningrecall
+2023-01-19 08:20:19 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage queuednotification
+2023-01-19 08:50:47 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage queuednotificationclean
+2023-01-19 09:05:19 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage temp
+2023-01-19 09:10:30 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage mailgateerror
+2023-01-19 09:20:37 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage certificate
+2023-01-19 09:23:09 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage olaticket
+2023-01-19 09:32:23 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage mailgate
+2023-01-19 10:02:36 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage graph
+2023-01-19 16:47:43 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage reservation
+2023-01-20 09:30:23 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage slaticket
+2023-01-23 07:42:22 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage queuednotification
+2023-01-23 07:47:35 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage planningrecall
+2023-01-23 15:45:05 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage RecurrentItems
+2023-01-23 16:05:34 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage olaticket
+2023-01-23 16:10:51 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage mailgate
+2023-01-23 16:19:01 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage temp
+2023-01-24 15:43:21 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage graph
+2023-01-25 08:28:49 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage closeticket
+2023-01-25 08:44:42 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage alertnotclosed
+2023-01-25 15:08:31 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage reservation
+2023-01-29 22:01:18 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage contract
+2023-01-29 23:51:11 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage infocom
+2023-01-29 23:57:12 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage session
+2023-01-30 00:10:43 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage createinquest
+2023-01-30 00:40:52 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage watcher
+2023-01-30 01:46:26 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage queuednotificationclean
+2023-01-30 01:53:24 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage mailgateerror
+2023-01-30 07:40:42 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage certificate
+2023-01-30 07:43:48 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage slaticket
+2023-01-30 07:44:07 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage queuednotification
+2023-01-30 07:48:35 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage planningrecall
+2023-01-30 07:50:56 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage olaticket
+2023-01-30 07:52:25 [@DESKTOP-IALN27L]
+Interne #1 : Démarrage mailgate
+2023-01-30 07:52:27 [@DESKTOP-IALN27L]
+Une erreur est survenue lors de la connexion au collecteur.<br/>cannot login, user or password wrong
+2023-01-30 07:57:43 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage RecurrentItems
+2023-01-30 08:03:59 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage temp
+2023-01-30 08:10:33 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage graph
+2023-01-30 09:43:02 [2@DESKTOP-IALN27L]
+Interne #1 : Démarrage reservation

@@ -1,0 +1,704 @@
+[2023-01-19 00:09:30] glpiphplog.WARNING: Test logger  
+[2023-01-19 08:10:31] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:217                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-19 08:10:51] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:274                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:126                       Glpi\Marketplace\View::discover()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-20 09:42:49] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 09:42:49] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 09:42:50] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 09:42:50] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 09:42:50] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 09:42:50] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 09:42:50] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 10:36:54] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 11:32:58] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:332    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:244    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 12:31:02] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:305    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:242    Glpi\Agent\Communication\AbstractRequest->handleXMLRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:305    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:242    Glpi\Agent\Communication\AbstractRequest->handleXMLRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 14:31:08] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:305    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:242    Glpi\Agent\Communication\AbstractRequest->handleXMLRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:305    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:242    Glpi\Agent\Communication\AbstractRequest->handleXMLRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 15:29:40] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:305    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:242    Glpi\Agent\Communication\AbstractRequest->handleXMLRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "capacity" in C:\wamp64\www\glpi\src\Inventory\Asset\Device.php at line 143
+  Backtrace :
+  src\Inventory\Asset\Drive.php:121                  Glpi\Inventory\Asset\Device->handle()
+  src\Inventory\Asset\MainAsset.php:862              Glpi\Inventory\Asset\Drive->handle()
+  src\Inventory\Asset\MainAsset.php:782              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src\RuleImportAsset.php:950                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src\Rule.php:1510                                  RuleImportAsset->executeActions()
+  src\RuleCollection.php:1591                        Rule->process()
+  src\Inventory\Asset\MainAsset.php:564              RuleCollection->processAllRules()
+  src\Inventory\Inventory.php:702                    Glpi\Inventory\Asset\MainAsset->handle()
+  src\Inventory\Inventory.php:337                    Glpi\Inventory\Inventory->handleItem()
+  src\Inventory\Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src\Inventory\Request.php:90                       Glpi\Inventory\Request->inventory()
+  src\Agent\Communication\AbstractRequest.php:305    Glpi\Inventory\Request->handleAction()
+  src\Agent\Communication\AbstractRequest.php:242    Glpi\Agent\Communication\AbstractRequest->handleXMLRequest()
+  front\inventory.php:92                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-20 16:30:17] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at C:\wamp64\www\glpi\src\Inventory\Asset\Device.php:143) in C:\wamp64\www\glpi\front\inventory.php at line 108
+  Backtrace :
+  front\inventory.php:108                            header()
+  
+[2023-01-23 15:45:41] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "host" in C:\wamp64\www\glpi\src\MailCollector.php at line 1349
+  Backtrace :
+  src\MailCollector.php:393                          MailCollector->connect()
+  ajax\mailcollector.php:83                          MailCollector->displayFoldersList()
+  
+[2023-01-23 15:45:41] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "passwd" in C:\wamp64\www\glpi\src\MailCollector.php at line 1354
+  Backtrace :
+  src\MailCollector.php:393                          MailCollector->connect()
+  ajax\mailcollector.php:83                          MailCollector->displayFoldersList()
+  
+[2023-01-23 15:45:41] glpiphplog.CRITICAL:   *** Uncaught Exception Exception: Type de serveur mail non supporté : in C:\wamp64\www\glpi\src\MailCollector.php at line 1377
+  Backtrace :
+  src\MailCollector.php:393                          MailCollector->connect()
+  ajax\mailcollector.php:83                          MailCollector->displayFoldersList()
+  
+[2023-01-23 16:05:59] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:689                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 01:47:16] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\wamp64\www\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 01:49:33] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\wamp64\www\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 01:49:44] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\wamp64\www\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 01:53:26] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:217                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 01:53:33] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:217                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 01:53:36] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:274                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:126                       Glpi\Marketplace\View::discover()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:52:27] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\wamp64\www\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2196                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1852                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:64                                  CronTask::launch()
+  
+[2023-01-30 07:57:16] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:217                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:17] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:339                            Toolbox::callCurl()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:653                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:485                       Glpi\Marketplace\View::getButtons()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:17] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ in C:\wamp64\www\glpi\src\GLPINetwork.php at line 358
+  Backtrace :
+  src\GLPINetwork.php:358                            trigger_error()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:653                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:485                       Glpi\Marketplace\View::getButtons()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:17] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:339                            Toolbox::callCurl()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:880                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:538                       Glpi\Marketplace\View::getNetworkInformations()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:17] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ in C:\wamp64\www\glpi\src\GLPINetwork.php at line 358
+  Backtrace :
+  src\GLPINetwork.php:358                            trigger_error()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:880                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:538                       Glpi\Marketplace\View::getNetworkInformations()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:24] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:339                            Toolbox::callCurl()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:653                       Glpi\Marketplace\Controller->getRequiredOffers()
+  ajax\marketplace.php:94                            Glpi\Marketplace\View::getButtons()
+  
+[2023-01-30 07:57:24] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ in C:\wamp64\www\glpi\src\GLPINetwork.php at line 358
+  Backtrace :
+  src\GLPINetwork.php:358                            trigger_error()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:653                       Glpi\Marketplace\Controller->getRequiredOffers()
+  ajax\marketplace.php:94                            Glpi\Marketplace\View::getButtons()
+  
+[2023-01-30 07:57:30] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:315                            Toolbox::callCurl()
+  src\Marketplace\View.php:147                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:217                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:30] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:339                            Toolbox::callCurl()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:653                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:485                       Glpi\Marketplace\View::getButtons()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:30] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ in C:\wamp64\www\glpi\src\GLPINetwork.php at line 358
+  Backtrace :
+  src\GLPINetwork.php:358                            trigger_error()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:653                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:485                       Glpi\Marketplace\View::getButtons()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:31] glpiphplog.WARNING:   *** PHP User Warning (512): Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate) in C:\wamp64\www\glpi\src\Toolbox.php at line 1517
+  Backtrace :
+  src\Toolbox.php:1517                               trigger_error()
+  src\GLPINetwork.php:339                            Toolbox::callCurl()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:880                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:538                       Glpi\Marketplace\View::getNetworkInformations()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 07:57:31] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ in C:\wamp64\www\glpi\src\GLPINetwork.php at line 358
+  Backtrace :
+  src\GLPINetwork.php:358                            trigger_error()
+  src\Marketplace\Controller.php:366                 GLPINetwork::getOffers()
+  src\Marketplace\View.php:880                       Glpi\Marketplace\Controller->getRequiredOffers()
+  src\Marketplace\View.php:538                       Glpi\Marketplace\View::getNetworkInformations()
+  src\Marketplace\View.php:351                       Glpi\Marketplace\View::getPluginCard()
+  src\Marketplace\View.php:251                       Glpi\Marketplace\View::displayList()
+  src\Marketplace\View.php:122                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:689                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:113                           CommonGLPI::displayStandardTab()
+  
+[2023-01-30 08:01:33] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  
+[2023-01-30 08:04:02] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  
+[2023-01-30 08:04:40] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  
+[2023-01-30 08:06:05] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  ...authimap\inc\mailcollectorfeature.class.php:280 PluginOauthimapApplication->redirectToAuthorizationUrl()
+  src\Plugin.php:1475                                GlpiPlugin\Oauthimap\MailCollectorFeature::handleMailCollectorSaving()
+  src\CommonDBTM.php:1683                            Plugin::doHook()
+  front\mailcollector.form.php:90                    CommonDBTM->update()
+  
+[2023-01-30 08:06:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to get access token in C:\wamp64\www\glpi\plugins\oauthimap\inc\imap\imapoauthprotocol.class.php at line 140
+  Backtrace :
+  ...thimap\inc\imap\imapoauthprotocol.class.php:140 trigger_error()
+  ...authimap\inc\imap\imapoauthstorage.class.php:75 GlpiPlugin\Oauthimap\Imap\ImapOauthProtocol->login()
+  ...authimap\inc\mailcollectorfeature.class.php:101 GlpiPlugin\Oauthimap\Imap\ImapOauthStorage->__construct()
+  src\Toolbox.php:2194                               GlpiPlugin\Oauthimap\MailCollectorFeature::GlpiPlugin\Oauthimap\{closure}()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 08:06:27] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\wamp64\www\glpi\plugins\oauthimap\inc\imap\imapoauthstorage.class.php at line 76
+  Backtrace :
+  ...authimap\inc\mailcollectorfeature.class.php:101 GlpiPlugin\Oauthimap\Imap\ImapOauthStorage->__construct()
+  src\Toolbox.php:2194                               GlpiPlugin\Oauthimap\MailCollectorFeature::GlpiPlugin\Oauthimap\{closure}()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 08:06:30] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to get access token in C:\wamp64\www\glpi\plugins\oauthimap\inc\imap\imapoauthprotocol.class.php at line 140
+  Backtrace :
+  ...thimap\inc\imap\imapoauthprotocol.class.php:140 trigger_error()
+  ...authimap\inc\imap\imapoauthstorage.class.php:75 GlpiPlugin\Oauthimap\Imap\ImapOauthProtocol->login()
+  ...authimap\inc\mailcollectorfeature.class.php:101 GlpiPlugin\Oauthimap\Imap\ImapOauthStorage->__construct()
+  src\Toolbox.php:2194                               GlpiPlugin\Oauthimap\MailCollectorFeature::GlpiPlugin\Oauthimap\{closure}()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 08:06:30] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\wamp64\www\glpi\plugins\oauthimap\inc\imap\imapoauthstorage.class.php at line 76
+  Backtrace :
+  ...authimap\inc\mailcollectorfeature.class.php:101 GlpiPlugin\Oauthimap\Imap\ImapOauthStorage->__construct()
+  src\Toolbox.php:2194                               GlpiPlugin\Oauthimap\MailCollectorFeature::GlpiPlugin\Oauthimap\{closure}()
+  src\MailCollector.php:1375                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-01-30 08:06:43] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  
+[2023-01-30 08:10:26] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  
+[2023-01-30 08:10:43] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  
+[2023-01-30 09:42:59] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Invalid credentials. in C:\wamp64\www\glpi\plugins\oauthimap\inc\application.class.php at line 440
+  Backtrace :
+  plugins\oauthimap\front\application.form.php:37    PluginOauthimapApplication->redirectToAuthorizationUrl()
+  

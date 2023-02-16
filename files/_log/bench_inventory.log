@@ -1,0 +1,168 @@
+2023-01-19 08:51:56 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.00282 seconde
+		Memory usage:        5.86 Mio
+		Memory usage (real): 8 Mio
+		Memory peak:         6.2 Mio
+
+	handle:
+		Execution time:      2.03372 secondes
+		Memory usage:        14.5 Mio
+		Memory usage (real): 18 Mio
+		Memory peak:         15.03 Mio
+
+	full:
+		Execution time:      3.82037 secondes
+		Memory usage:        12.16 Mio
+		Memory usage (real): 18 Mio
+		Memory peak:         15.03 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 09:42:50 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.01658 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 8 Mio
+		Memory peak:         5.92 Mio
+
+	handle:
+		Execution time:      2.41592 secondes
+		Memory usage:        11.46 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      4.51511 secondes
+		Memory usage:        11.45 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 10:36:54 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.01155 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 8 Mio
+		Memory peak:         5.92 Mio
+
+	handle:
+		Execution time:      1.42662 seconde
+		Memory usage:        11.44 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      2.6957 secondes
+		Memory usage:        11.43 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 11:32:58 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.011 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 8 Mio
+		Memory peak:         5.92 Mio
+
+	handle:
+		Execution time:      1.40448 seconde
+		Memory usage:        11.44 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      2.82393 secondes
+		Memory usage:        11.43 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 12:31:02 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.01059 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 8 Mio
+		Memory peak:         5.92 Mio
+
+	handle:
+		Execution time:      1.28194 seconde
+		Memory usage:        11.43 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      2.43327 secondes
+		Memory usage:        11.42 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 14:31:08 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.01856 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 10 Mio
+		Memory peak:         6.01 Mio
+
+	handle:
+		Execution time:      1.35868 seconde
+		Memory usage:        11.43 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      2.62652 secondes
+		Memory usage:        11.42 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 15:29:40 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.0082 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 10 Mio
+		Memory peak:         6.01 Mio
+
+	handle:
+		Execution time:      2.02986 secondes
+		Memory usage:        11.43 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      3.61695 secondes
+		Memory usage:        11.42 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1
+2023-01-20 16:30:17 [@DESKTOP-IALN27L]
+Computer:
+	prepare:
+		Execution time:      0.01162 seconde
+		Memory usage:        5.84 Mio
+		Memory usage (real): 10 Mio
+		Memory peak:         6.01 Mio
+
+	handle:
+		Execution time:      1.70299 seconde
+		Memory usage:        11.43 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+	full:
+		Execution time:      3.33014 secondes
+		Memory usage:        11.42 Mio
+		Memory usage (real): 16 Mio
+		Memory peak:         12.56 Mio
+
+Inventoried assets: Computer #1

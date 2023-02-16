@@ -1,0 +1,10 @@
+2023-01-19 00:32:16 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/front/plugin.php2023-01-19 00:32:22 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/front/plugin.php2023-01-25 15:08:24 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/front/authldap.form.php2023-01-30 01:49:33 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/front/mailcollector.form.php2023-01-30 08:03:56 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/plugins/oauthimap/front/application.form.php2023-01-30 08:06:12 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/front/mailcollector.form.php2023-01-30 08:06:48 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/plugins/oauthimap/front/application.form.php2023-01-30 08:10:31 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/plugins/oauthimap/front/application.form.php2023-01-30 08:15:26 [2@DESKTOP-IALN27L]
+CSRF check failed for User ID: 2 at /glpi/plugins/oauthimap/front/application.form.php
